@@ -1,0 +1,141 @@
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-info, .user-diseases, .user-allergies {
+  margin-bottom: 30px;
+}.text-center {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f8f9fa;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.add-disease, .add-allergy {
+  margin-top: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.profile-image {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-details {
+  flex: 1;
+}
+
+
+.form-control {
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.list-group-item {
+  background: #f8f9fa;
+  border: none;
+}
+
+.user-diseases-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 35px;
+  gap: 20px; /* Aralarındaki boşluğu azaltmak için */
+}
+.user-allergies-section {
+  display: flex;
+  align-items: flex-start;
+  padding: 35px;
+  gap: 20px; /* Reduce spacing between elements */
+}
+
+.allergy-image {
+  margin-right: 20px; /* Add space between the image and the allergies section */
+}
+
+.allergy-image img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.disease-image img,.allergy-image img {
+  width: 200%;
+  max-width: 550px;
+  border-radius: 8px;
+}
+
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar .form-control {
+  border-radius: 20px;
+  padding-right: 40px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: #888;
+}

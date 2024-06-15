@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBYSApi", "KBYSApi\KBYSApi.csproj", "{9E231A9F-DE06-4AE1-AFF3-C858C543A219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBYS.DataAcces", "KBYS.DataAcces\KBYS.DataAcces.csproj", "{9A9AA2BD-D681-4CFB-AD3C-B47979850A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBYS.Entities", "KBYS.Entities\KBYS.Entities.csproj", "{0812FDCB-7ACC-4E87-BA4D-6A40F26F5851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBYS.BusinessLogic", "KBYS.BusinessLogic\KBYS.BusinessLogic.csproj", "{9AD266C1-0FBD-4B9F-BC05-BF3B0C697DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBYS.Repository", "KBYS.Repository\KBYS.Repository.csproj", "{FE952CFF-931E-4F49-9E92-CE3B32362831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KBYS.Helper", "KBYS.Helper\KBYS.Helper.csproj", "{4B28F32F-19E4-40DC-AF2D-FD74EFF81DB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E231A9F-DE06-4AE1-AFF3-C858C543A219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E231A9F-DE06-4AE1-AFF3-C858C543A219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E231A9F-DE06-4AE1-AFF3-C858C543A219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E231A9F-DE06-4AE1-AFF3-C858C543A219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A9AA2BD-D681-4CFB-AD3C-B47979850A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9AA2BD-D681-4CFB-AD3C-B47979850A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9AA2BD-D681-4CFB-AD3C-B47979850A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9AA2BD-D681-4CFB-AD3C-B47979850A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0812FDCB-7ACC-4E87-BA4D-6A40F26F5851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0812FDCB-7ACC-4E87-BA4D-6A40F26F5851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0812FDCB-7ACC-4E87-BA4D-6A40F26F5851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0812FDCB-7ACC-4E87-BA4D-6A40F26F5851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD266C1-0FBD-4B9F-BC05-BF3B0C697DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD266C1-0FBD-4B9F-BC05-BF3B0C697DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD266C1-0FBD-4B9F-BC05-BF3B0C697DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD266C1-0FBD-4B9F-BC05-BF3B0C697DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE952CFF-931E-4F49-9E92-CE3B32362831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE952CFF-931E-4F49-9E92-CE3B32362831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE952CFF-931E-4F49-9E92-CE3B32362831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE952CFF-931E-4F49-9E92-CE3B32362831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B28F32F-19E4-40DC-AF2D-FD74EFF81DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B28F32F-19E4-40DC-AF2D-FD74EFF81DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B28F32F-19E4-40DC-AF2D-FD74EFF81DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B28F32F-19E4-40DC-AF2D-FD74EFF81DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD4A355E-4E77-435F-997C-32825FF80196}
+	EndGlobalSection
+EndGlobal

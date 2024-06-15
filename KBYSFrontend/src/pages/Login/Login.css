@@ -1,0 +1,139 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #f8f9fa;
+    animation: gradient 5s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .left-div {
+    background: #fff;
+    border-radius: 25px 0 0 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .right-div {
+    background: #fff;
+    padding: 40px;
+    border-radius: 0 25px 25px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .form-section {
+    width: 80%; /* Formun genişliğini sağ divin genişliğine uyum sağlaması */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px; /* Form içeriği için padding */
+  }
+  .card {
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 1px solid #333333;
+  }
+  
+  .card-body {
+    background-color: #ffffff;
+    padding: 2em;
+    color: #333333;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding: 0.75em;
+    margin-top: 0.5em;
+    background-color: #f9f9f9;
+    color: #333333;
+    transition: box-shadow 0.3s, border-color 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color: #646cff;
+    box-shadow: 0 0 10px rgba(100, 108, 255, 0.5);
+  }
+  
+  .alert {
+    margin-top: 1em;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
+  .btn-primary {
+    background-color: #1a1a1a;
+    border: none;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.3s;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 1em;
+  }
+  
+  .btn-primary:hover {
+    background-color: #333333;
+    transform: translateY(-3px);
+  }
+  
+  .btn-link {
+    background: none;
+    border: none;
+    color: #646cff;
+    padding: 0.75em 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .btn-link:hover {
+    color: #535bf2;
+  }
+  
+  .text-center {
+    text-align: center;
+    margin-top: 1em;
+  }
+  

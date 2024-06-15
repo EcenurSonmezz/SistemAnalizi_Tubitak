@@ -1,0 +1,235 @@
+.homepage-container {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe7ba;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    height: 620px;
+    margin-top: 0px;
+    
+}
+
+.hero-text {
+    max-width: 150%;
+    margin-left: 250px;
+}
+
+.hero-text h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.order-now-button {
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-now-button:hover {
+    background-color: #ff5722;
+}
+
+.hero-image img {
+    max-width: 150%;
+    border-radius: 8px;
+}
+
+.search-section {
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.search-form input {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-right: 40px;
+}
+
+.clear-button {
+    position: absolute;
+    right: 40px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s;
+}
+
+.clear-button:hover {
+    color: #000;
+}
+
+.search-button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.3s;
+}
+
+.search-button:hover {
+    color: #000;
+}
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-item {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.food-item:hover {
+    background-color: #f0f0f0;
+}
+
+.today-meals {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.meal-image {
+    margin-right: 100px;
+}
+
+.meal-image img {
+    width: 900px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.meal-summary {
+    text-align: left; /* Değeri ihtiyacınıza göre sağa veya sola hizalayabilirsiniz */
+}
+
+@media (max-width: 768px) {
+    .today-meals {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .meal-summary {
+        text-align: left;
+        
+    }
+}
+
+.selected-food {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.selected-food h2 {
+    margin-top: 0;
+}
+
+.selected-food ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.selected-food li {
+    margin-bottom: 5px;
+}
+
+.selected-food button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.selected-food button:hover {
+    background-color: #218838;
+}
+
+/* Scroll Animation CSS */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.scroll-animation {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Scroll Animation Trigger */
+.hero-section.scroll-animation,
+.order-now-button.scroll-animation,
+.hero-image.scroll-animation,
+.search-section.scroll-animation,
+.search-form.scroll-animation,
+.search-results.scroll-animation,
+.food-item.scroll-animation,
+.today-meals.scroll-animation,
+.selected-food.scroll-animation {
+    animation-delay: 0.2s;
+}

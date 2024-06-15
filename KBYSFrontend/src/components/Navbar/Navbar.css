@@ -1,0 +1,100 @@
+.navbar {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1em 0;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 2em;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.brand-logo {
+  max-height: 300%; /* Increased height for a larger logo */
+  width: 350px;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  border: 1px solid #eaeaea;
+  border-radius: 25px;
+  padding: 0.5em 1em;
+  background-color: #f8f8f8;
+}
+
+.menu-link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  padding: 0.5em 1em;
+  transition: color 0.1s ease-in-out; /* Sadece renk değişimi */
+}
+
+.menu-link:hover {
+  color: #cdb79e;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1em;
+}
+
+.auth-link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5em 1em;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out; /* Sadece renk değişimi */
+}
+
+.auth-link:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.login-button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.5em 1em;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out; /* Sadece renk değişimi */
+}
+
+.login-button:hover {
+  background-color: #cdb79e;
+  color: #ffffff;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #cdb79e;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: underline;
+  padding: 0;
+  font-weight: 500;
+  transition: color 0.1s ease-in-out; /* Sadece renk değişimi */
+}
+
+.logout-button:hover {
+  color: #cdb79e;
+}

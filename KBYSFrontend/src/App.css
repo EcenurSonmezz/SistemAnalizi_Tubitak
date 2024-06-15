@@ -1,0 +1,42 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #242424;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.form-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.form-container.show-signup .login-form {
+  transform: translateX(-100%);
+}
+
+.form-container.show-signup .sign-up-form {
+  transform: translateX(0);
+}
+
+.login-form,
+.sign-up-form {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.sign-up-form {
+  transform: translateX(100%);
+}
